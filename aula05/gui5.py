@@ -11,4 +11,4 @@ def meu_click():
 btn_botao = Button(tela, text="Click", command=meu_click)
 btn_botao.pack()
 
-tela.mainloop()
+tela.mainloop();
