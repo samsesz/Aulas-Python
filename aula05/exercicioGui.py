@@ -1,15 +1,16 @@
 from tkinter import *
-tela = Tk()
 
+#config tela
+tela = Tk()
 tela.title("Cadastro de Cliente")
 tela.configure(background= "#4a4e7d")
-
-lbl_cad = Label(tela, text="Cadastro de Clientes").place (x=170, y=140)
-
 tela.geometry("700x600")
 tela.resizable(True, True)
 tela.maxsize(width=800, height=700)
 tela.minsize(width=500, height=300)
+
+lbl_cad = Label(tela, text="Cadastrados:", justify="left", anchor="w")
+lbl_cad.place(x=20, y=260)
 
 txt_nome = Entry(tela, width=20, borderwidth=5, fg="blue", bg="white")
 txt_nome.pack()
