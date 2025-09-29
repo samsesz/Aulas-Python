@@ -25,7 +25,7 @@ def cad():
         idade_num = idade
         maiorDidade = "Idade inválida"
 
-#Verificação da policia
+#Verificação da passagem pela policia
     if policia == "Sim":
         status = "Tá sendo procurado!"
     else:
@@ -79,6 +79,7 @@ resultado = Label(tela, text="Familiares cadastrados:", justify="left", anchor="
 resultado.place(x=20, y=260)
 
 #dados fixos
+#professor, não vou colocar os dados originais da minha familia, fiz de personagens ficticios que gosto, espero q entenda!!
 resultado["text"] += "\nDexter Morgan | 38 anos | 13 99999-9999 | Irmão | Maior de idade | Não tem passagem "
 resultado["text"] += "\nBrian Moser | 40 anos | 13 99888-8888 | Irmão | Maior de idade | Procurado!! "
 resultado["text"] += "\nHannibal Lecter | 52 anos | 13 99777-7777 | Mãe | Maior de idade | Não tem passagem "
